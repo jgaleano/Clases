@@ -1,0 +1,68 @@
+#uno {
+	border: 1px solid black;
+	background: red;
+	margin: 15px;
+}
+
+#dos {
+	background: green;
+	border: 1px dotted black;
+	padding: 15px;
+}
+
+#tercer {
+	border: 1px dashed black;
+	background: blue;
+	padding: -20px;
+}
+
+span {
+	border: 1px solid red;
+}
+
+#img1 {
+	float: left;
+	width: 30%;
+}
+
+#img2 {
+	float: left;
+	width: 30%;
+}
+
+#navbar {
+	float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: hidden;
+}
+
+li {
+	text-align: center;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}

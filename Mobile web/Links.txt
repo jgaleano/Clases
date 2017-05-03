@@ -1,0 +1,10 @@
+Modulo 1 HTML Link
+https://librosweb.es/libro/css/capitulo_1/medios_css.html
+https://www.w3schools.com/cssref/css_units.asp
+https://adegiusti.files.wordpress.com/2013/09/el-gran-libro-de-html5-css3-y-javascript.pdf
+https://www.w3schools.com/css/css_rwd_images.asp
+https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+https://www.w3schools.com/css/css3_mediaqueries_ex.asp
+https://developer.mozilla.org/es/docs/CSS/Media_queries
+https://developer.mozilla.org/en-US/docs/Web/CSS/@media
+https://developer.mozilla.org/es/docs/Web/JavaScript/Introducci%C3%B3n_a_JavaScript_orientado_a_objetos
