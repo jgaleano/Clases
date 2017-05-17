@@ -1,0 +1,8 @@
+Modulo 2 Android
+
+https://elbauldelprogramador.com/programacion-android-interfaz-grafica_28/
+https://elbauldelprogramador.com/adapter-personalizado-en-android/
+http://www.vogella.com/tutorials/AndroidListView/article.html
+https://code.tutsplus.com/es/tutorials/getting-started-with-recyclerview-and-cardview-on-android--cms-23465
+https://developer.android.com/guide/components/processes-and-threads.html?hl=es
+http://www.techotopia.com/index.php/Using_Fragments_in_Android_-_A_Worked_Example
