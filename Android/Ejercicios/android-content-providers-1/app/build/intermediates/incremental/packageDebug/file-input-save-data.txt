@@ -1,0 +1,27 @@
+#Internal package file, do not edit.
+#Wed May 24 11:45:53 COT 2017
+2.base=/Users/JulioC/Documents/Workspaces/AndroidWorkspace/android-content-providers-1/app/build/intermediates/res/resources-debug.ap_
+5.file=/Users/JulioC/Documents/Workspaces/AndroidWorkspace/android-content-providers-1/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+5.set=ANDROID_RESOURCE
+3.base=/Users/JulioC/Documents/Workspaces/AndroidWorkspace/android-content-providers-1/app/build/intermediates/res/resources-debug.ap_
+6.file=/Users/JulioC/Documents/Workspaces/AndroidWorkspace/android-content-providers-1/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+2.set=ANDROID_RESOURCE
+4.base=/Users/JulioC/Documents/Workspaces/AndroidWorkspace/android-content-providers-1/app/build/intermediates/res/resources-debug.ap_
+7.file=/Users/JulioC/Documents/Workspaces/AndroidWorkspace/android-content-providers-1/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+7.set=DEX
+count=8
+0.file=/Users/JulioC/Documents/Workspaces/AndroidWorkspace/android-content-providers-1/app/build/intermediates/res/resources-debug.ap_/res/menu/main.xml
+5.base=/Users/JulioC/Documents/Workspaces/AndroidWorkspace/android-content-providers-1/app/build/intermediates/res/resources-debug.ap_
+4.set=ANDROID_RESOURCE
+6.base=/Users/JulioC/Documents/Workspaces/AndroidWorkspace/android-content-providers-1/app/build/intermediates/res/resources-debug.ap_
+1.file=/Users/JulioC/Documents/Workspaces/AndroidWorkspace/android-content-providers-1/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/activity_main.xml
+1.set=ANDROID_RESOURCE
+7.base=/Users/JulioC/Documents/Workspaces/AndroidWorkspace/android-content-providers-1/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+2.file=/Users/JulioC/Documents/Workspaces/AndroidWorkspace/android-content-providers-1/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_launcher.png
+6.set=ANDROID_RESOURCE
+0.base=/Users/JulioC/Documents/Workspaces/AndroidWorkspace/android-content-providers-1/app/build/intermediates/res/resources-debug.ap_
+3.file=/Users/JulioC/Documents/Workspaces/AndroidWorkspace/android-content-providers-1/app/build/intermediates/res/resources-debug.ap_/res/menu-v11/main.xml
+3.set=ANDROID_RESOURCE
+1.base=/Users/JulioC/Documents/Workspaces/AndroidWorkspace/android-content-providers-1/app/build/intermediates/res/resources-debug.ap_
+4.file=/Users/JulioC/Documents/Workspaces/AndroidWorkspace/android-content-providers-1/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_main.xml
+0.set=ANDROID_RESOURCE
