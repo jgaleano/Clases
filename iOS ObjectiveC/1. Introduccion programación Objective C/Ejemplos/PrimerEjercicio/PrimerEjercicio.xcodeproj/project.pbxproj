@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		470C014D1EE22B74002398EF /* SegundoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 470C014B1EE22B74002398EF /* SegundoViewController.m */; };
+		470C014E1EE22B74002398EF /* SegundoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 470C014C1EE22B74002398EF /* SegundoViewController.xib */; };
 		472F65731DDFBE0900E6D7B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 472F65721DDFBE0900E6D7B8 /* main.m */; };
 		472F65761DDFBE0900E6D7B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 472F65751DDFBE0900E6D7B8 /* AppDelegate.m */; };
 		472F65791DDFBE0900E6D7B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 472F65781DDFBE0900E6D7B8 /* ViewController.m */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		470C014A1EE22B74002398EF /* SegundoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegundoViewController.h; sourceTree = "<group>"; };
+		470C014B1EE22B74002398EF /* SegundoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegundoViewController.m; sourceTree = "<group>"; };
+		470C014C1EE22B74002398EF /* SegundoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SegundoViewController.xib; sourceTree = "<group>"; };
 		472F656E1DDFBE0900E6D7B8 /* PrimerEjercicio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimerEjercicio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		472F65721DDFBE0900E6D7B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		472F65741DDFBE0900E6D7B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +72,9 @@
 				472F657F1DDFBE0A00E6D7B8 /* LaunchScreen.storyboard */,
 				472F65821DDFBE0A00E6D7B8 /* Info.plist */,
 				472F65711DDFBE0900E6D7B8 /* Supporting Files */,
+				470C014A1EE22B74002398EF /* SegundoViewController.h */,
+				470C014B1EE22B74002398EF /* SegundoViewController.m */,
+				470C014C1EE22B74002398EF /* SegundoViewController.xib */,
 			);
 			path = PrimerEjercicio;
 			sourceTree = "<group>";
@@ -139,6 +147,7 @@
 			files = (
 				472F65811DDFBE0A00E6D7B8 /* LaunchScreen.storyboard in Resources */,
 				472F657E1DDFBE0A00E6D7B8 /* Assets.xcassets in Resources */,
+				470C014E1EE22B74002398EF /* SegundoViewController.xib in Resources */,
 				472F657C1DDFBE0A00E6D7B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +161,7 @@
 			files = (
 				472F65791DDFBE0900E6D7B8 /* ViewController.m in Sources */,
 				472F65761DDFBE0900E6D7B8 /* AppDelegate.m in Sources */,
+				470C014D1EE22B74002398EF /* SegundoViewController.m in Sources */,
 				472F65731DDFBE0900E6D7B8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +317,7 @@
 				472F65871DDFBE0A00E6D7B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

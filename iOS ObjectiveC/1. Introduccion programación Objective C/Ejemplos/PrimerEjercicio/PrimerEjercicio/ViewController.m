@@ -7,10 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "SegundoViewController.h"
 
 @interface ViewController ()
 
 @property (nonatomic, assign) NSInteger conteo;
+@property (nonatomic, strong) SegundoViewController *segundoControlador;
 
 @end
 
@@ -29,9 +31,16 @@
 }
 
 - (IBAction)clickBoton:(UIButton *)sender {
-    self.conteo++;
+    /*self.conteo++;
     NSString *mensaje =  @"Click en el boton: ";
-    self.texto.text = [mensaje stringByAppendingString:[NSString stringWithFormat:@"%d", (int)self.conteo]];
+    self.texto.text = [mensaje stringByAppendingString:[NSString stringWithFormat:@"%d", (int)self.conteo]];*/
+    
+    self.segundoControlador = [[SegundoViewController alloc] init];
+    
+    [self presentViewController:self.segundoControlador animated:YES completion:nil];
+    
+    
+    
 }
 
 @end
