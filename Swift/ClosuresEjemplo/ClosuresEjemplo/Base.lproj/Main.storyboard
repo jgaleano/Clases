@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OIB-31-scO">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ClosuresEjemplo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fqw-lO-nDe">
+                                <rect key="frame" x="154.5" y="121" width="105" height="30"/>
+                                <state key="normal" title="Ir a controlador"/>
+                                <connections>
+                                    <segue destination="0Wh-e3-c8b" kind="show" identifier="MostrarSegundoControlador" id="XEt-qt-ppa"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5O3-eQ-t4v">
+                                <rect key="frame" x="186" y="173" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QDM-1H-ZxY">
+                                <rect key="frame" x="137" y="221" width="140" height="30"/>
+                                <state key="normal" title="Cambiar por funcion"/>
+                                <connections>
+                                    <action selector="cambiarPorFuncionClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D29-zF-4BC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QDM-1H-ZxY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7z5-Wz-BxX"/>
+                            <constraint firstItem="QDM-1H-ZxY" firstAttribute="top" secondItem="5O3-eQ-t4v" secondAttribute="bottom" constant="27" id="J88-m3-kv4"/>
+                            <constraint firstItem="5O3-eQ-t4v" firstAttribute="top" secondItem="fqw-lO-nDe" secondAttribute="bottom" constant="22" id="NXO-hz-vFf"/>
+                            <constraint firstItem="fqw-lO-nDe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="O9x-I5-gaT"/>
+                            <constraint firstItem="5O3-eQ-t4v" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WzB-3l-m7M"/>
+                            <constraint firstItem="fqw-lO-nDe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="33" id="vHF-bT-7yr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="e6S-z3-g1m"/>
+                    <connections>
+                        <outlet property="valorLabel" destination="5O3-eQ-t4v" id="36B-7F-vAZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="628" y="153"/>
+        </scene>
+        <!--Segundo View Controller-->
+        <scene sceneID="wHy-iP-tJx">
+            <objects>
+                <viewController id="0Wh-e3-c8b" customClass="SegundoViewController" customModule="ClosuresEjemplo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xwT-fg-4af">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ju9-LD-ePT">
+                                <rect key="frame" x="16" y="114" width="382" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ds-WG-JoZ">
+                                <rect key="frame" x="159.5" y="169" width="95" height="30"/>
+                                <state key="normal" title="Cambiar valor"/>
+                                <connections>
+                                    <action selector="clickCambiarValor:" destination="0Wh-e3-c8b" eventType="touchUpInside" id="f6A-O2-OFy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ju9-LD-ePT" firstAttribute="centerX" secondItem="xwT-fg-4af" secondAttribute="centerX" id="5wM-Te-jsk"/>
+                            <constraint firstItem="vqd-cq-LqU" firstAttribute="trailing" secondItem="Ju9-LD-ePT" secondAttribute="trailing" constant="16" id="Tta-Ej-mzS"/>
+                            <constraint firstItem="Ju9-LD-ePT" firstAttribute="leading" secondItem="vqd-cq-LqU" secondAttribute="leading" constant="16" id="dsJ-ZJ-geG"/>
+                            <constraint firstItem="8Ds-WG-JoZ" firstAttribute="top" secondItem="Ju9-LD-ePT" secondAttribute="bottom" constant="25" id="ksE-JS-b6g"/>
+                            <constraint firstItem="Ju9-LD-ePT" firstAttribute="top" secondItem="vqd-cq-LqU" secondAttribute="top" constant="26" id="oj8-0d-DeK"/>
+                            <constraint firstItem="8Ds-WG-JoZ" firstAttribute="centerX" secondItem="xwT-fg-4af" secondAttribute="centerX" id="yBD-Ra-pxT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vqd-cq-LqU"/>
+                    </view>
+                    <connections>
+                        <outlet property="valueTextField" destination="Ju9-LD-ePT" id="jvZ-a0-hfc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dk5-pN-DaS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1409" y="153"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="nOL-3D-qyW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OIB-31-scO" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Y1Y-Lc-uC5">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="m95-gh-CbF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P07-c0-j6f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-107.24637681159422" y="151.33928571428569"/>
+        </scene>
+    </scenes>
+</document>
